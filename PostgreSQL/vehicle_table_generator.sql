@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS vehicle;
 
 -- Creates table vhicle
 CREATE TABLE vehicle (
-	vehicle_id SERIAL       NOT NULL,
+	vehicle_id SERIAL       NOT NULL PRIMARY KEY,
 	make       VARCHAR(100) NOT NULL,
 	model      VARCHAR(100) NOT NULL,
 	price      NUMERIC(5)   NOT NULL,
