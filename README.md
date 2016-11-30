@@ -1,2 +1,2 @@
-# sql-demp
-Project with various demos for SQL
+# sql-demo
+Project with various demos related to SQL
