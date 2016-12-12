@@ -1,5 +1,5 @@
 ## Description
-This folder contains examples related to the `Distribution` in PostreSQL.
+This folder contains examples related to the `Partitioning` in PostreSQL.
 
 ## partitioning_example.sql
 `partitioning_example.sql` is a SQL script which
