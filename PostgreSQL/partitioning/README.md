@@ -1,8 +1,8 @@
 ## Description
-This folder contains examples related to the `Partitioning` in PostreSQL.
+This folder contains examples related to the `Partitioning` in PostgreSQL.
 
-## partitioning_example.sql
-`partitioning_example.sql` is a SQL script which
+## range_partitioning_example.sql
+[range_partitioning_example.sql](range_partitioning_example.sql) is a SQL script which
 * creates parent `vehicle_master` table for partitioned tables
 * creates partitioned tables which inherit `vehicle_master` table. Each table stores data according to the year range, e.g.:
  * vehicles which were produced before the year 2000;
@@ -14,7 +14,7 @@ This folder contains examples related to the `Partitioning` in PostreSQL.
 * creates `fillinvehicle_distributed` function which can be used for inserted randomly generated data into `vehicle_master` table
 
 ## How to use
-Just run the script using any suitable approach(e.g. using psql or any database managment tool)
+Just run the script using any suitable approach(e.g. using psql or any database management tool)
 
 After executing this script all mentioned above tables, functions and trigger will be created.
 
